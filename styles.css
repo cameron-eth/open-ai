@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #343541;
+    font-family: 'Open Sans';
+    color: #fff;
+    display: flex;
+}
+
+nav {
+    display: flex;
+   text-align: center;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+
+.closing-tag {
+    background: linear-gradient(to right, #E794FC, #DFF5F1, #00f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 13px;
+    text-align: center;
+}
+
+.side-bar {
+    background-color: #1D1E20;
+    width: 254px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    background: linear-gradient(to right, #E794FC, #DFF5F1, rgb(134, 155, 79));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 2rem;
+}
+.history {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.history p {
+    cursor: pointer;
+}
+ /*---------------------BUTTONS-------------------------*/
+button {
+    background-color: #1D1E20;
+    color: white;
+    border-color: slategray;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    border-width: 1px;
+    margin-top: .25rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    height: 40px;  
+    
+}
+button:hover {
+    background-color: #413a3a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    border-radius: 16px;
+    border: #343541;
+    box-shadow: #343541 30px 30px;
+    background-color: #3c424d;
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans';
+    padding: 12px 10px;
+}
+.input-container {
+    position: relative;
+}
+.input-container #submit {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    padding-right: 1rem;
+    padding-bottom: .50rem;
+    cursor: pointer;
+    
+} 
