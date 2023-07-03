@@ -1,2 +1,2 @@
 # Chat-Re-PT
-Chat GBT Redesign
+Chat GPT Redesign
